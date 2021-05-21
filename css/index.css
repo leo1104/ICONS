@@ -16,15 +16,15 @@ header{
     display: flex;
     justify-content: space-between;
 align-items: center;
-margin:2rem 4rem;
-margin-left: 6rem;
+margin:2rem 6rem;
+margin-right: 9rem;
 
 }
 .icemLogo{
 width: 100%;
 }
 .icemLogo img{
-    width: 30%;
+    width: 35%;
 }
 nav ul{
     display: flex;
@@ -58,8 +58,9 @@ nav ul img{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin:0 4rem;
-
+    margin:0 6rem;
+margin-top: 4rem;
+margin-right: 4rem;
 }
 
 .quotes h2{
@@ -74,13 +75,16 @@ font-family: 'Montserrat', sans-serif;
 }
 .quotes p{
     font-size: 1.4rem;
-
+margin-bottom: 1rem;
 }
 .search{
     display: flex;
 }
 .search input{
-    padding: 1rem 4rem;
+    padding: .5rem 4rem;
+    border-radius: 1rem;
+}
+.search input::selection {
     border-radius: 1rem;
 }
 .search button{
@@ -92,7 +96,7 @@ font-family: 'Montserrat', sans-serif;
  border-radius:0.7rem ;  
 display: flex;
 align-items: center;
-padding: 1rem 2rem;
+padding: .5rem 2rem;
 font-size: 1.4rem;
 }
 
@@ -120,7 +124,7 @@ border-radius:.3rem;
     border-radius:.3rem;}
 
 
-    .points h2{
+.points h2{
     color: #574D6F;
     font-size: 2rem;
     margin-right: 1rem;
