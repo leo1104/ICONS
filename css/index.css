@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    display: inline-flex;
+    justify-content: space-between;
+align-items: center;
+margin:2rem 4rem;
+}
+.icemLogo img{
+    width: 90%;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    margin: 0 2rem;
+    font-size: 1.7rem;
+}
+nav ul button{
+    color: rgb(47, 0, 47);
+    border: none;
+    border-radius: 0.5rem;
+    background-color: rgb(47, 0, 47);
+    padding: 0.5rem 2rem;
+}
+
+/* Content1 */
+.content1{
+    display: flex;
+}
+.bearImg img{
+    width: 40%;
+}
