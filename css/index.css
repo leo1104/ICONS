@@ -16,11 +16,14 @@ header{
     display: inline-flex;
     justify-content: space-between;
 align-items: center;
-margin:2rem 4rem;
+margin:2rem 6rem;
 margin-left: 6rem;
 }
+.icemLogo{
+width: 10%;
+}
 .icemLogo img{
-    width: 40%;
+    width: 100%;
 }
 nav ul{
     display: flex;
@@ -34,14 +37,15 @@ nav ul li a{
     text-decoration: none;
     color: black;
     margin: 0 2rem;
-    font-size: 1.4rem;
+    font-size: 1.7rem;
 }
 nav ul button{
     color: #6255A5;
     border: none;
     border-radius: 0.5rem;
     background-color: #6255A5;
-    padding: 0.5rem 2rem;
+    padding: 1.5rem 4rem;
+    margin: 0 2rem;
 }
 
 /* Content1 */
@@ -70,17 +74,23 @@ font-family: 'Montserrat', sans-serif;
 }
 .search input{
     padding: 1rem 4rem;
+    border-radius: 1rem;
 }
 .search button{
    background-color: #6255A5;
    color: white;
    border: none;
    position: relative;
-   left: -5px;
-   
+   left: -20px;
+ border-radius:0.7rem ;  
+display: flex;
+align-items: center;
+padding: 1rem 4rem;
 }
 
-
+.bearImg{
+    width: 45%;
+}
 .bearImg img{
-    width: 100%;
+    width: 80%;
 }
