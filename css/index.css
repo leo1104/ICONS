@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
 
@@ -13,17 +13,18 @@ body{
 }
 
 header{
-    display: inline-flex;
+    display: flex;
     justify-content: space-between;
 align-items: center;
-margin:2rem 6rem;
+margin:2rem 4rem;
 margin-left: 6rem;
+
 }
 .icemLogo{
-width: 10%;
+width: 100%;
 }
 .icemLogo img{
-    width: 100%;
+    width: 30%;
 }
 nav ul{
     display: flex;
@@ -36,16 +37,20 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color: black;
-    margin: 0 2rem;
-    font-size: 1.7rem;
+    margin: 0 1.5rem;
+    font-size: 1.4rem;
 }
 nav ul button{
     color: #6255A5;
     border: none;
     border-radius: 0.5rem;
     background-color: #6255A5;
-    padding: 1.5rem 4rem;
-    margin: 0 2rem;
+    padding: 1rem 3rem;
+    margin: 0 1rem;
+    margin-right: 1rem;
+}
+nav ul img{
+    width: 7%;
 }
 
 /* Content1 */
@@ -53,7 +58,8 @@ nav ul button{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 4rem;
+    margin:0 4rem;
+
 }
 
 .quotes h2{
@@ -68,6 +74,7 @@ font-family: 'Montserrat', sans-serif;
 }
 .quotes p{
     font-size: 1.4rem;
+
 }
 .search{
     display: flex;
@@ -85,12 +92,42 @@ font-family: 'Montserrat', sans-serif;
  border-radius:0.7rem ;  
 display: flex;
 align-items: center;
-padding: 1rem 4rem;
+padding: 1rem 2rem;
+font-size: 1.4rem;
 }
 
 .bearImg{
-    width: 45%;
+    width: 50%;
 }
 .bearImg img{
-    width: 80%;
+    width: 100%;
+}
+
+.points{
+    display: flex;
+    align-items: center;
+margin-bottom: 1rem;
+}
+.point1{
+    border-bottom: 5px solid #FEAB81;
+border-radius:.3rem;
+}
+.point2{
+    border-bottom: 5px solid #6255A5;
+    border-radius:.3rem;}
+.point3{
+    border-bottom: 5px solid #85D1A0;
+    border-radius:.3rem;}
+
+
+    .points h2{
+    color: #574D6F;
+    font-size: 2rem;
+    margin-right: 1rem;
+    
+}
+.points  h4{
+    color: #696281;
+    font-size: 1.5rem;
+
 }
