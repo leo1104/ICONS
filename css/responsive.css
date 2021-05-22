@@ -26,13 +26,39 @@
     .quotes{
         margin: 2rem;
     }
+    .search{
+        display: flex;
+        justify-content: center;
+    }
+    .bearImg{
+        width: 85%;
+    }
+    .collegeInfo{
+        display: flex;
+    }
+    .points{
+        width: 33.33%;
+   border: 3px solid black;
+margin: 0 1rem;    
+padding: 1.4rem;
+border-radius: 2rem;
+box-shadow: 2px 2px 10px #6255A5;
+}
+    .points h2{
+        
+    }
+    .points h4{
+        text-align: center;
+    }
     .content3{
         display: block;
+        padding-bottom: 4rem;
     }
     .leftcontent{
         width: 100%;
     }
     .rightcontent{
         width: 100%;
-    }    
+    }
+
 }
