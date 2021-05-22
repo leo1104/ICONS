@@ -1,0 +1,38 @@
+@media screen and (max-width:992px){
+    header{
+        flex-direction: column;
+    }
+    .icemLogo img{
+        width: -1;
+        margin: auto;
+        display: flex;
+    }
+    .icemLogo{
+        margin-bottom: 2rem;
+    }
+    nav ul{
+        justify-content: normal;
+    }
+    nav ul li a{
+        font-size: 1rem;
+    }
+    nav ul button{
+        padding: 1rem 2rem;
+    }
+    .content1{
+        margin: 0;
+        flex-wrap: wrap;
+    }
+    .quotes{
+        margin: 2rem;
+    }
+    .content3{
+        display: block;
+    }
+    .leftcontent{
+        width: 100%;
+    }
+    .rightcontent{
+        width: 100%;
+    }    
+}
