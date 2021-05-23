@@ -32,6 +32,10 @@
     .search{
         display: flex;
         justify-content: center;
+        width: 100%;
+    }
+    .search input{
+        width: 100%;
     }
     .bearImg{
         width: 85%;
