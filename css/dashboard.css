@@ -39,25 +39,29 @@ margin: 2rem;
 }
 .awards{
     border-radius: 1rem;
-    padding: 3rem 4rem;
+    padding: 6rem 4rem;
     padding-top: .1rem;
     background-color: #F0A998;
 margin-bottom: 2rem;
 }
 .growthStats{
     background-color: #BCD9E7;
-    padding: 3rem 4rem;
+    padding: 2.1rem 4rem 5rem;
     padding-top: .1rem;
     border-radius: 1rem;
 }
 .todo{
     background-color: #BCD9E7;
-    padding: 2rem 4rem;
+    padding: 0rem 2rem;
     padding-top: .1rem;
     border-radius: 1rem;
+   
 }
 .todo p{
     background-color: white;
     border-radius: 1rem;
     padding: 1rem;
+}
+#donut_single rect{
+    fill: #98C38B;
 }
