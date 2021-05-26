@@ -745,3 +745,12 @@ margin-top: .5rem;
   margin-top: 3rem;
 margin-bottom: 3rem;
 }
+
+
+/* gallery */
+.container{
+  margin: 0;
+}
+.py-24{
+  padding-top: 2rem;
+}
