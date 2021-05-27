@@ -769,3 +769,61 @@ justify-content: center;
 .iron{
   border-radius: 2rem;
 }
+ footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+ }
+
+
+footer img{
+width: 5%;
+margin: 2rem;
+cursor: pointer;
+}
+/* footer img:hover{
+  width: 7%;
+}  */
+
+
+div.waves{
+  width: 100%;
+  bottom: 0;
+  /*height: 100%;*/
+  position: relative;
+  z-index: 99;
+  margin-top: 10rem;
+}
+svg{
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  animation-name: move-left;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.spacer{
+  height: 100px;
+  width: 100%;
+}
+
+
+
+@keyframes example {
+  0%   {
+    left:0px;
+    top:0px;}
+  
+  50%  {
+    left:-2000px;
+    top:200px;}
+  
+  100% {
+    left:0px; 
+    top:0px;}
+}
+
+
