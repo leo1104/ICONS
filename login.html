@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/form.css">
     <link rel="stylesheet" href="css/trial.css">
+    <link rel="stylesheet" href="css/footer_trial.css">
     <title>Login</title>
     <link rel="icon" href="images/ICEM_LOGO.svg" type="images/svg">
 </head>
+
 <body>
     <div class="container" id="container">
         <div class="form-container sign-up-container">
-    
-    
+
+
             <form action="#">
                 <h1>Create Account</h1>
                 <div class="social-container pure-form">
@@ -32,14 +35,15 @@
                     </label>
                 </div>
                 <input type="text" minlength="4" maxlength="50" placeholder="Name" required="required" />
-                <input type="text" minlength="10" maxlength="10" pattern="^[789]\d{9}$" placeholder="Mobile Number" required="required" />
+                <input type="text" minlength="10" maxlength="10" pattern="^[789]\d{9}$" placeholder="Mobile Number"
+                    required="required" />
                 <input type="text" minlength="10" maxlength="10" placeholder="CollegeID" required="required" />
-    
+
                 <input type="password" minlength="8" maxlength="16" id="password" placeholder="Password"
                     required="required" />
                 <input type="password" minlength="8" maxlength="16" id="confirm_password" placeholder="Confirm Password"
                     required="required" />
-    
+
                 <button type="submit" class="pure-button pure-button-primary">Sign Up</button>
             </form>
         </div>
@@ -51,7 +55,7 @@
                 <span></span>
                 <input type="text" placeholder="Mobile Number/CollegeID" required="required" />
                 <input type="password" placeholder="Password" required="required" />
-    
+
                 <a href="#">Forgot your password?</a>
                 <button>Sign In</button>
             </form>
@@ -71,25 +75,25 @@
             </div>
         </div>
     </div>
-    
+
     <script>
         const signUpButton = document.getElementById('signUp');
         const signInButton = document.getElementById('signIn');
         const container = document.getElementById('container');
-    
+
         signUpButton.addEventListener('click', () => {
             container.classList.add("right-panel-active");
         });
-    
+
         signInButton.addEventListener('click', () => {
             container.classList.remove("right-panel-active");
         });
-    
+
     </script>
     <script>
         var password = document.getElementById("password")
             , confirm_password = document.getElementById("confirm_password");
-    
+
         function validatePassword() {
             if (password.value != confirm_password.value) {
                 confirm_password.setCustomValidity("Passwords Don't Match");
@@ -97,10 +101,20 @@
                 confirm_password.setCustomValidity('');
             }
         }
-    
+
         password.onchange = validatePassword;
         confirm_password.onkeyup = validatePassword;
     </script>
-    
+
+
+    <!-- footer -->
+    <footer>
+        <p style="text-align: left;">made with ❤️</p>
+        <div>
+            <a href="#"><img src="images\instagram.svg" alt=""></a>
+            <a href="#"><img src="images\twitter.svg" alt=""></a>
+        </div>
+    </footer>
 </body>
+
 </html>
