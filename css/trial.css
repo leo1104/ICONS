@@ -344,3 +344,14 @@ input[type="radio"]{
 #option-2:checked:checked ~ .option-2 span{
   color: #fff;
 }
+
+@media screen and (max-width:992px) {
+	.container{width:400px;
+	}
+	form{
+		padding: 0 5px;
+	}
+	.overlay-panel{
+		padding: 0 5px;
+	}
+  }
