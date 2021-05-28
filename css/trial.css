@@ -326,6 +326,7 @@ input[type="radio"]{
 #option-2:checked:checked ~ .option-2{
   border-color: #0069d9;
   background: #0069d9;
+  margin: 10px;
 }
 #option-1:checked:checked ~ .option-1 .dot,
 #option-2:checked:checked ~ .option-2 .dot{
@@ -348,11 +349,16 @@ input[type="radio"]{
 @media screen and (max-width:992px) {
 	.container{
 		width:380px;
+		min-height: 580px;
 	}
 	form{
 		padding: 0 5px;
 	}
 	.overlay-panel{
 		padding: 0 5px;
+	}
+	.wrapper{
+		width: 224px;
+		flex-direction: column;
 	}
   }
