@@ -769,22 +769,9 @@ justify-content: center;
 .iron{
   border-radius: 2rem;
 }
- footer{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 4rem;
- }
 
 
-footer img{
-width: 5%;
-margin: 2rem;
-cursor: pointer;
-}
-/* footer img:hover{
-  width: 7%;
-}  */
+
 
 
 div.waves{
