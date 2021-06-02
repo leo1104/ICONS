@@ -785,7 +785,7 @@ div.waves{
   margin-top: 10rem;
 }
 svg{
-  position: absolute;
+  position: relative;
   width: 100%;
   bottom: 0;
   left: 0;
@@ -799,7 +799,10 @@ svg{
   width: 100%;
 }
 
-
+.boom{
+  display: flex;
+  justify-items: space-between;
+}
 
 @keyframes example {
   0%   {
