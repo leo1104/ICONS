@@ -67,5 +67,10 @@ box-shadow: 2px 2px 10px #6255A5;
     .rightcontent{
         width: 100%;
     }
-
+.projects{
+       flex-direction: column;
+   }
+   .pro{
+       width: 95%;
+   }
 }

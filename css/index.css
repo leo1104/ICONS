@@ -771,8 +771,55 @@ justify-content: center;
 .iron{
   border-radius: 2rem;
 }
+/* projects */
 
+.studentpro{
+text-align: center;
+font-size: 2.4rem;
+}
+.projects{
+  display: flex;
+  align-items: center;
+  
+  justify-content: center;
+}
+.pro{
+  cursor: pointer;
+  align-items: center;
+  margin: 2rem;
+  width: 33.33%;
+  padding: 2rem;
+  box-shadow: 2px 2px 16px rgba(34,68,136,1) ;
+  border-radius: 0.5rem;
+}
+.pro:hover{
+  width: 35%;
+}
+.pro h2{
+text-align: center;
+font-size: 1.4rem;
+}
+.pro img{
+  display: flex;
+  margin: auto;
+width: 30%;
+}
+.pro h3{
+  text-align: center;
+  }
 
+.second{
+padding: 2.6rem;
+}
+.second img{
+  width: 35%;
+} 
+.third{
+padding: 2.6rem;
+}
+.third img{
+width: 35%;
+}
 
 
 
