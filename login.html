@@ -60,6 +60,7 @@
                 <span></span>
                 <input type="text" id="userIn" placeholder="UserID/CollegeID" required="required" />
                 <input type="password" id="passIn" placeholder="Password" required="required" />
+
                 <a href="#">Forgot your password?</a>
                 <button onclick="signInFun()">Sign In</button>
             </form>
@@ -89,7 +90,7 @@
         signUpButton.addEventListener('click', () => {
             container.classList.add("right-panel-active");
         });
-        const signInButton = document.getElementById('signIn');
+    const signInButton = document.getElementById('signIn');
             signInButton.addEventListener('click', () => {
                 container.classList.remove("right-panel-active");
             }); 
@@ -115,8 +116,8 @@
 function signInFun(){
     user=document.getElementById('userIn').value;
     password1=document.getElementById('passIn').value;
-    if(user=="manisha.bharti@indiraicem.ac.in"){ 
-        console.log("hey");
+    if(user=="manisha.bharti@indiraicem.ac.in" && password1=='1234'){ 
+        window.location.href="indexT.html";
     }
     else if(user=="pappu.singh@gmail.com"){
         window.location.href="indexs.html";
