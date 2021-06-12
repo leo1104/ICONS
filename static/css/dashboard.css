@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.heading{
+    text-align: center;
+}
+.heading h4{
+    font-size: 24px;
+}
+.heading h2{
+    font-size: 38px;
+}
+.content1{
+    display: flex;
+margin: 2rem;
+}
+.avatar img{
+    border-radius: 50%;
+    width: 50%;
+}
+.content2{
+    display: flex;
+    margin: 2rem;
+    justify-content: center;
+}
+.stats{
+    margin: 1rem;
+    background-color: #98C38B;
+    padding:11rem 3rem;
+    padding-top: .1rem;
+    border-radius: 1rem;
+}
+.growth{
+    margin: 1rem;
+}
+.awards{
+    border-radius: 1rem;
+    padding: 6rem 4rem;
+    padding-top: .1rem;
+    background-color: #F0A998;
+margin-bottom: 2rem;
+}
+.growthStats{
+    background-color: #BCD9E7;
+    padding: 2.1rem 4rem 5rem;
+    padding-top: .1rem;
+    border-radius: 1rem;
+}
+.todo{
+    background-color: #BCD9E7;
+    padding: 0rem 2rem;
+    padding-top: .1rem;
+    border-radius: 1rem;
+   
+}
+.todo p{
+    background-color: white;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+#donut_single rect{
+    fill: #98C38B;
+}
