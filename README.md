@@ -12,3 +12,7 @@ Study any topic anytime.
 
 You can peek into student's projects. Watch your colleagues, students and friends creating and developing beautiful projects.
 This section includes projects made by them to help you get inspired and happy.
+
+One look at the news feed and you have snapshot of trending projects,, new technology developments, entertainment and news updates from around the college.
+New Students who are seeking admission have a knack of when and what is happening currently in the campus.
+
