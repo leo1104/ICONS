@@ -19,3 +19,7 @@ New Students who are seeking admission have a knack of when and what is happenin
 Your seniors are here. You can use this network to get career guidance, access mentors.
 Get Help and experiences of Alumnis working in the professional world to enhance your corporate exposure and prepare you better for future.
 Get Inspired ! Learn !
+
+
+Easy login through ERP. You can now directly login through ERP and have an easy access to the portal.
+So now you have all your stuff in the drawer! Yayy!
