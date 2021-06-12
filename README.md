@@ -6,3 +6,7 @@ Modern UI has usability and ease of use as its core, essentially reducing the ne
 Enhanced interaction.
 The master pages and the flexibility with which you could modify the look and feel of your sites is incredible.This can be critical if you need some complex functionality!
 
+All Academic resources at one place. So no more fishing around in!
+Have your Academic resources such as PDFs, Documents, Ebooks, Question banks from the university collected and stored at one place. 
+Study any topic anytime.
+
