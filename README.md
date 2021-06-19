@@ -1,5 +1,5 @@
 # ICONS
-Website - https://indira-icons.herokuapp.com/
+Website - https://indira-icons.herokuapp.com
 # Screenshots of Website:
 
  <p align="center">
